@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="14" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="10874" started-at="2022-01-08T13:20:50Z" finished-at="2022-01-08T13:21:01Z">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="CreateOrgTest.createOrg()[pri:0, instance:com.crm.vtiger.dataProvider.CreateOrgTest@4501b7af]" name="createOrg" class="com.crm.vtiger.dataProvider.CreateOrgTest"/>
+        <method signature="CreateOrgTest.createOrgWithIndustry()[pri:0, instance:com.crm.vtiger.dataProvider.CreateOrgTest@4501b7af]" name="createOrgWithIndustry" class="com.crm.vtiger.dataProvider.CreateOrgTest"/>
+        <method signature="CreateOrgTest.createOrgWithRating()[pri:0, instance:com.crm.vtiger.dataProvider.CreateOrgTest@4501b7af]" name="createOrgWithRating" class="com.crm.vtiger.dataProvider.CreateOrgTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="CreateOrgTest.createOrg()[pri:0, instance:com.crm.vtiger.dataProvider.CreateOrgTest@4501b7af]" name="createOrg" class="com.crm.vtiger.dataProvider.CreateOrgTest"/>
+        <method signature="CreateOrgTest.createOrgWithIndustry()[pri:0, instance:com.crm.vtiger.dataProvider.CreateOrgTest@4501b7af]" name="createOrgWithIndustry" class="com.crm.vtiger.dataProvider.CreateOrgTest"/>
+        <method signature="CreateOrgTest.createOrgWithRating()[pri:0, instance:com.crm.vtiger.dataProvider.CreateOrgTest@4501b7af]" name="createOrgWithRating" class="com.crm.vtiger.dataProvider.CreateOrgTest"/>
+        <method signature="DataProviderDemoTest.ticketBooking(java.lang.String, java.lang.String)[pri:0, instance:com.crm.vtiger.dataProvider.DataProviderDemoTest@523884b2]" name="ticketBooking" class="com.crm.vtiger.dataProvider.DataProviderDemoTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test name="Command line test" duration-ms="10874" started-at="2022-01-08T13:20:50Z" finished-at="2022-01-08T13:21:01Z">
+      <class name="com.crm.vtiger.LoginToVtigerTest">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.crm.vtiger.LoginToVtigerTest@5b275dab]" name="configBC" is-config="true" duration-ms="1953" started-at="2022-01-08T13:20:53Z" finished-at="2022-01-08T13:20:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.crm.vtiger.LoginToVtigerTest@5b275dab]" name="configBM" is-config="true" duration-ms="1" started-at="2022-01-08T13:20:55Z" finished-at="2022-01-08T13:20:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="ReadLoginDetailsFromPropertyFile()[pri:0, instance:com.crm.vtiger.LoginToVtigerTest@5b275dab]" name="ReadLoginDetailsFromPropertyFile" duration-ms="6032" started-at="2022-01-08T13:20:55Z" finished-at="2022-01-08T13:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReadLoginDetailsFromPropertyFile -->
+        <test-method status="PASS" signature="signOut()[pri:0, instance:com.crm.vtiger.LoginToVtigerTest@5b275dab]" name="signOut" is-config="true" duration-ms="0" started-at="2022-01-08T13:21:01Z" finished-at="2022-01-08T13:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.crm.vtiger.LoginToVtigerTest@5b275dab]" name="configAC" is-config="true" duration-ms="335" started-at="2022-01-08T13:21:01Z" finished-at="2022-01-08T13:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.crm.vtiger.LoginToVtigerTest -->
+      <class name="com.crm.vtiger.dataProvider.CreateOrgTest">
+        <test-method status="PASS" signature="createOrgWithIndustry()[pri:0, instance:com.crm.vtiger.dataProvider.CreateOrgTest@4501b7af]" name="createOrgWithIndustry" duration-ms="1" started-at="2022-01-08T13:20:53Z" finished-at="2022-01-08T13:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithIndustry -->
+        <test-method status="PASS" signature="createOrg()[pri:0, instance:com.crm.vtiger.dataProvider.CreateOrgTest@4501b7af]" name="createOrg" duration-ms="0" started-at="2022-01-08T13:20:53Z" finished-at="2022-01-08T13:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method status="PASS" signature="createOrgWithRating()[pri:0, instance:com.crm.vtiger.dataProvider.CreateOrgTest@4501b7af]" name="createOrgWithRating" duration-ms="0" started-at="2022-01-08T13:20:53Z" finished-at="2022-01-08T13:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithRating -->
+      </class> <!-- com.crm.vtiger.dataProvider.CreateOrgTest -->
+      <class name="com.crm.vtiger.CreateOrgTest">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:com.crm.vtiger.CreateOrgTest@28d25987]" name="configBS" is-config="true" duration-ms="10" started-at="2022-01-08T13:20:50Z" finished-at="2022-01-08T13:20:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.crm.vtiger.CreateOrgTest@28d25987]" name="configBC" is-config="true" duration-ms="2373" started-at="2022-01-08T13:20:50Z" finished-at="2022-01-08T13:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.crm.vtiger.CreateOrgTest@28d25987]" name="configBM" is-config="true" duration-ms="20" started-at="2022-01-08T13:20:52Z" finished-at="2022-01-08T13:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createOrg()[pri:0, instance:com.crm.vtiger.CreateOrgTest@28d25987]" name="createOrg" duration-ms="1" started-at="2022-01-08T13:20:52Z" finished-at="2022-01-08T13:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method status="PASS" signature="signOut()[pri:0, instance:com.crm.vtiger.CreateOrgTest@28d25987]" name="signOut" is-config="true" duration-ms="0" started-at="2022-01-08T13:20:52Z" finished-at="2022-01-08T13:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.crm.vtiger.CreateOrgTest@28d25987]" name="configBM" is-config="true" duration-ms="1" started-at="2022-01-08T13:20:52Z" finished-at="2022-01-08T13:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createOrgWithIndustry()[pri:0, instance:com.crm.vtiger.CreateOrgTest@28d25987]" name="createOrgWithIndustry" duration-ms="0" started-at="2022-01-08T13:20:52Z" finished-at="2022-01-08T13:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithIndustry -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.crm.vtiger.CreateOrgTest@28d25987]" name="configBM" is-config="true" duration-ms="1" started-at="2022-01-08T13:20:52Z" finished-at="2022-01-08T13:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="signOut()[pri:0, instance:com.crm.vtiger.CreateOrgTest@28d25987]" name="signOut" is-config="true" duration-ms="0" started-at="2022-01-08T13:20:52Z" finished-at="2022-01-08T13:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method status="PASS" signature="createOrgWithRating()[pri:0, instance:com.crm.vtiger.CreateOrgTest@28d25987]" name="createOrgWithRating" duration-ms="1" started-at="2022-01-08T13:20:52Z" finished-at="2022-01-08T13:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithRating -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.crm.vtiger.CreateOrgTest@28d25987]" name="configAC" is-config="true" duration-ms="125" started-at="2022-01-08T13:20:52Z" finished-at="2022-01-08T13:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method status="PASS" signature="signOut()[pri:0, instance:com.crm.vtiger.CreateOrgTest@28d25987]" name="signOut" is-config="true" duration-ms="0" started-at="2022-01-08T13:20:52Z" finished-at="2022-01-08T13:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method status="PASS" signature="configAS()[pri:0, instance:com.crm.vtiger.CreateOrgTest@28d25987]" name="configAS" is-config="true" duration-ms="1" started-at="2022-01-08T13:21:01Z" finished-at="2022-01-08T13:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.crm.vtiger.CreateOrgTest -->
+      <class name="com.crm.vtiger.dataProvider.DataProviderDemoTest">
+        <test-method status="PASS" signature="ticketBooking(java.lang.String, java.lang.String)[pri:0, instance:com.crm.vtiger.dataProvider.DataProviderDemoTest@523884b2]" name="ticketBooking" duration-ms="0" started-at="2022-01-08T13:20:53Z" data-provider="bookTicketDataProvider" finished-at="2022-01-08T13:20:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mysore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ticketBooking -->
+        <test-method status="PASS" signature="ticketBooking(java.lang.String, java.lang.String)[pri:0, instance:com.crm.vtiger.dataProvider.DataProviderDemoTest@523884b2]" name="ticketBooking" duration-ms="0" started-at="2022-01-08T13:20:53Z" data-provider="bookTicketDataProvider" finished-at="2022-01-08T13:20:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ticketBooking -->
+        <test-method status="PASS" signature="ticketBooking(java.lang.String, java.lang.String)[pri:0, instance:com.crm.vtiger.dataProvider.DataProviderDemoTest@523884b2]" name="ticketBooking" duration-ms="1" started-at="2022-01-08T13:20:53Z" data-provider="bookTicketDataProvider" finished-at="2022-01-08T13:20:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ticketBooking -->
+        <test-method status="PASS" signature="ticketBooking(java.lang.String, java.lang.String)[pri:0, instance:com.crm.vtiger.dataProvider.DataProviderDemoTest@523884b2]" name="ticketBooking" duration-ms="0" started-at="2022-01-08T13:20:53Z" data-provider="bookTicketDataProvider" finished-at="2022-01-08T13:20:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ticketBooking -->
+        <test-method status="PASS" signature="ticketBooking(java.lang.String, java.lang.String)[pri:0, instance:com.crm.vtiger.dataProvider.DataProviderDemoTest@523884b2]" name="ticketBooking" duration-ms="0" started-at="2022-01-08T13:20:53Z" data-provider="bookTicketDataProvider" finished-at="2022-01-08T13:20:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kerala]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ticketBooking -->
+      </class> <!-- com.crm.vtiger.dataProvider.DataProviderDemoTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

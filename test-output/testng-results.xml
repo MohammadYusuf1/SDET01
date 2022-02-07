@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="3" ignored="4" total="22" passed="13" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-06T13:54:15 IST" name="Suite" finished-at="2022-01-06T13:54:32 IST" duration-ms="16167">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="CreateOrgTest.createOrg()[pri:0, instance:com.crm.vtiger.dataProvider.CreateOrgTest@121314f7]" name="createOrg" class="com.crm.vtiger.dataProvider.CreateOrgTest"/>
+        <method signature="CreateOrgTest.createOrgWithIndustry()[pri:0, instance:com.crm.vtiger.dataProvider.CreateOrgTest@121314f7]" name="createOrgWithIndustry" class="com.crm.vtiger.dataProvider.CreateOrgTest"/>
+        <method signature="CreateOrgTest.createOrgWithRating()[pri:0, instance:com.crm.vtiger.dataProvider.CreateOrgTest@121314f7]" name="createOrgWithRating" class="com.crm.vtiger.dataProvider.CreateOrgTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="CreateOrgTest.createOrg()[pri:0, instance:com.crm.vtiger.dataProvider.CreateOrgTest@121314f7]" name="createOrg" class="com.crm.vtiger.dataProvider.CreateOrgTest"/>
+        <method signature="CreateOrgTest.createOrgWithIndustry()[pri:0, instance:com.crm.vtiger.dataProvider.CreateOrgTest@121314f7]" name="createOrgWithIndustry" class="com.crm.vtiger.dataProvider.CreateOrgTest"/>
+        <method signature="CreateOrgTest.createOrgWithRating()[pri:0, instance:com.crm.vtiger.dataProvider.CreateOrgTest@121314f7]" name="createOrgWithRating" class="com.crm.vtiger.dataProvider.CreateOrgTest"/>
+        <method signature="DataProviderDemoTest.ticketBooking(java.lang.String,java.lang.String)[pri:0, instance:com.crm.vtiger.dataProvider.DataProviderDemoTest@4d5650ae]" name="ticketBooking" class="com.crm.vtiger.dataProvider.DataProviderDemoTest"/>
+        <method signature="LaunchBrowserTest.launchBrowser()[pri:0, instance:javaprogram.LaunchBrowserTest@130c12b7]" name="launchBrowser" class="javaprogram.LaunchBrowserTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test started-at="2022-01-06T13:54:15 IST" name="Test" finished-at="2022-01-06T13:54:32 IST" duration-ms="16167">
+      <class name="com.crm.vtiger.LoginToVtigerTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.crm.vtiger.LoginToVtigerTest@242b836]" started-at="2022-01-06T13:54:15 IST" name="configBS" finished-at="2022-01-06T13:54:15 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crm.vtiger.LoginToVtigerTest@242b836]" started-at="2022-01-06T13:54:16 IST" name="configBC" finished-at="2022-01-06T13:54:18 IST" duration-ms="2022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.vtiger.LoginToVtigerTest@242b836]" started-at="2022-01-06T13:54:18 IST" name="configBM" finished-at="2022-01-06T13:54:18 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="ReadLoginDetailsFromPropertyFile()[pri:0, instance:com.crm.vtiger.LoginToVtigerTest@242b836]" started-at="2022-01-06T13:54:18 IST" name="ReadLoginDetailsFromPropertyFile" finished-at="2022-01-06T13:54:22 IST" duration-ms="3939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReadLoginDetailsFromPropertyFile -->
+        <test-method is-config="true" signature="signOut()[pri:0, instance:com.crm.vtiger.LoginToVtigerTest@242b836]" started-at="2022-01-06T13:54:22 IST" name="signOut" finished-at="2022-01-06T13:54:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.vtiger.LoginToVtigerTest@242b836]" started-at="2022-01-06T13:54:22 IST" name="configAC" finished-at="2022-01-06T13:54:22 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.crm.vtiger.LoginToVtigerTest@242b836]" started-at="2022-01-06T13:54:32 IST" name="configAS" finished-at="2022-01-06T13:54:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.crm.vtiger.LoginToVtigerTest -->
+      <class name="com.crm.vtiger.dataProvider.CreateOrgTest">
+        <test-method signature="createOrg()[pri:0, instance:com.crm.vtiger.dataProvider.CreateOrgTest@121314f7]" started-at="2022-01-06T13:54:22 IST" name="createOrg" finished-at="2022-01-06T13:54:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method signature="createOrgWithIndustry()[pri:0, instance:com.crm.vtiger.dataProvider.CreateOrgTest@121314f7]" started-at="2022-01-06T13:54:22 IST" name="createOrgWithIndustry" finished-at="2022-01-06T13:54:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithIndustry -->
+        <test-method signature="createOrgWithRating()[pri:0, instance:com.crm.vtiger.dataProvider.CreateOrgTest@121314f7]" started-at="2022-01-06T13:54:22 IST" name="createOrgWithRating" finished-at="2022-01-06T13:54:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithRating -->
+      </class> <!-- com.crm.vtiger.dataProvider.CreateOrgTest -->
+      <class name="com.crm.vtiger.LogIn">
+        <test-method signature="clickOrg()[pri:0, instance:com.crm.vtiger.LogIn@576d5deb]" started-at="2022-01-06T13:54:30 IST" name="clickOrg" finished-at="2022-01-06T13:54:30 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+at com.crm.vtiger.LogIn.clickOrg(LogIn.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOrg -->
+      </class> <!-- com.crm.vtiger.LogIn -->
+      <class name="javaprogram.LaunchBrowserTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:javaprogram.LaunchBrowserTest@130c12b7]" started-at="2022-01-06T13:54:22 IST" name="configBC" finished-at="2022-01-06T13:54:24 IST" duration-ms="1659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:javaprogram.LaunchBrowserTest@130c12b7]" started-at="2022-01-06T13:54:24 IST" name="configBM" finished-at="2022-01-06T13:54:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="launchBrowser()[pri:0, instance:javaprogram.LaunchBrowserTest@130c12b7]" started-at="2022-01-06T13:54:24 IST" name="launchBrowser" finished-at="2022-01-06T13:54:29 IST" duration-ms="5901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="signOut()[pri:0, instance:javaprogram.LaunchBrowserTest@130c12b7]" started-at="2022-01-06T13:54:29 IST" name="signOut" finished-at="2022-01-06T13:54:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:javaprogram.LaunchBrowserTest@130c12b7]" started-at="2022-01-06T13:54:29 IST" name="configAC" finished-at="2022-01-06T13:54:30 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- javaprogram.LaunchBrowserTest -->
+      <class name="practice.RetryAnalyzer">
+        <test-method retried="true" signature="retryAnalyzerMethod()[pri:0, instance:practice.RetryAnalyzer@5e600dd5]" started-at="2022-01-06T13:54:30 IST" name="retryAnalyzerMethod" finished-at="2022-01-06T13:54:30 IST" duration-ms="4" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at practice.RetryAnalyzer.retryAnalyzerMethod(RetryAnalyzer.java:12)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retryAnalyzerMethod -->
+        <test-method retried="true" signature="retryAnalyzerMethod()[pri:0, instance:practice.RetryAnalyzer@5e600dd5]" started-at="2022-01-06T13:54:30 IST" name="retryAnalyzerMethod" finished-at="2022-01-06T13:54:30 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at practice.RetryAnalyzer.retryAnalyzerMethod(RetryAnalyzer.java:12)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retryAnalyzerMethod -->
+        <test-method retried="true" signature="retryAnalyzerMethod()[pri:0, instance:practice.RetryAnalyzer@5e600dd5]" started-at="2022-01-06T13:54:30 IST" name="retryAnalyzerMethod" finished-at="2022-01-06T13:54:30 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at practice.RetryAnalyzer.retryAnalyzerMethod(RetryAnalyzer.java:12)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retryAnalyzerMethod -->
+        <test-method signature="retryAnalyzerMethod()[pri:0, instance:practice.RetryAnalyzer@5e600dd5]" started-at="2022-01-06T13:54:30 IST" name="retryAnalyzerMethod" finished-at="2022-01-06T13:54:30 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at practice.RetryAnalyzer.retryAnalyzerMethod(RetryAnalyzer.java:12)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retryAnalyzerMethod -->
+      </class> <!-- practice.RetryAnalyzer -->
+      <class name="com.crm.vtiger.dataProvider.DataProviderDemoTest">
+        <test-method signature="ticketBooking(java.lang.String,java.lang.String)[pri:0, instance:com.crm.vtiger.dataProvider.DataProviderDemoTest@4d5650ae]" started-at="2022-01-06T13:54:32 IST" name="ticketBooking" data-provider="bookTicketDataProvider" finished-at="2022-01-06T13:54:32 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ticketBooking -->
+        <test-method signature="ticketBooking(java.lang.String,java.lang.String)[pri:0, instance:com.crm.vtiger.dataProvider.DataProviderDemoTest@4d5650ae]" started-at="2022-01-06T13:54:32 IST" name="ticketBooking" data-provider="bookTicketDataProvider" finished-at="2022-01-06T13:54:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mysore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ticketBooking -->
+        <test-method signature="ticketBooking(java.lang.String,java.lang.String)[pri:0, instance:com.crm.vtiger.dataProvider.DataProviderDemoTest@4d5650ae]" started-at="2022-01-06T13:54:32 IST" name="ticketBooking" data-provider="bookTicketDataProvider" finished-at="2022-01-06T13:54:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ticketBooking -->
+        <test-method signature="ticketBooking(java.lang.String,java.lang.String)[pri:0, instance:com.crm.vtiger.dataProvider.DataProviderDemoTest@4d5650ae]" started-at="2022-01-06T13:54:32 IST" name="ticketBooking" data-provider="bookTicketDataProvider" finished-at="2022-01-06T13:54:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kerala]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ticketBooking -->
+        <test-method signature="ticketBooking(java.lang.String,java.lang.String)[pri:0, instance:com.crm.vtiger.dataProvider.DataProviderDemoTest@4d5650ae]" started-at="2022-01-06T13:54:32 IST" name="ticketBooking" data-provider="bookTicketDataProvider" finished-at="2022-01-06T13:54:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ticketBooking -->
+      </class> <!-- com.crm.vtiger.dataProvider.DataProviderDemoTest -->
+      <class name="com.crm.vtiger.CreateOrgTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crm.vtiger.CreateOrgTest@70e9c95d]" started-at="2022-01-06T13:54:30 IST" name="configBC" finished-at="2022-01-06T13:54:31 IST" duration-ms="1613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.vtiger.CreateOrgTest@70e9c95d]" started-at="2022-01-06T13:54:31 IST" name="configBM" finished-at="2022-01-06T13:54:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createOrg()[pri:0, instance:com.crm.vtiger.CreateOrgTest@70e9c95d]" started-at="2022-01-06T13:54:31 IST" name="createOrg" finished-at="2022-01-06T13:54:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method is-config="true" signature="signOut()[pri:0, instance:com.crm.vtiger.CreateOrgTest@70e9c95d]" started-at="2022-01-06T13:54:31 IST" name="signOut" finished-at="2022-01-06T13:54:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.vtiger.CreateOrgTest@70e9c95d]" started-at="2022-01-06T13:54:31 IST" name="configBM" finished-at="2022-01-06T13:54:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createOrgWithIndustry()[pri:0, instance:com.crm.vtiger.CreateOrgTest@70e9c95d]" started-at="2022-01-06T13:54:31 IST" name="createOrgWithIndustry" finished-at="2022-01-06T13:54:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithIndustry -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.vtiger.CreateOrgTest@70e9c95d]" started-at="2022-01-06T13:54:31 IST" name="configBM" finished-at="2022-01-06T13:54:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method is-config="true" signature="signOut()[pri:0, instance:com.crm.vtiger.CreateOrgTest@70e9c95d]" started-at="2022-01-06T13:54:31 IST" name="signOut" finished-at="2022-01-06T13:54:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method signature="createOrgWithRating()[pri:0, instance:com.crm.vtiger.CreateOrgTest@70e9c95d]" started-at="2022-01-06T13:54:31 IST" name="createOrgWithRating" finished-at="2022-01-06T13:54:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithRating -->
+        <test-method is-config="true" signature="signOut()[pri:0, instance:com.crm.vtiger.CreateOrgTest@70e9c95d]" started-at="2022-01-06T13:54:31 IST" name="signOut" finished-at="2022-01-06T13:54:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.vtiger.CreateOrgTest@70e9c95d]" started-at="2022-01-06T13:54:31 IST" name="configAC" finished-at="2022-01-06T13:54:32 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.crm.vtiger.CreateOrgTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

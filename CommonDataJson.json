@@ -1,0 +1,6 @@
+{
+"url":"http://localhost:8888/index.php?module=Home&action=index",
+"browser":"chrome",
+"un":"admin",
+"pwd":"admin"
+}
